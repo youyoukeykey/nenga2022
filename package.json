@@ -5,17 +5,16 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug":"webpack-cli serve --mode development --open",
-    "build":"webpack --mode production"
+    "debug": "webpack-cli serve --mode development --open",
+    "build": "webpack --mode production"
   },
   "author": "kouy",
   "license": "ISC",
   "keywords": [],
   "dependencies": {
-    "@types/createjs": "0.0.29",
     "@types/matter-js": "^0.14.10",
-    "createjs-module": "^0.8.3",
     "matter-js": "^0.16.1",
+    "phaser": "^3.54.0",
     "ts-loader": "^8.0.17",
     "typescript": "^4.2.3",
     "webpack": "^5.24.4",
